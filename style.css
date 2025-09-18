@@ -1,1 +1,74 @@
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0fdf4; /* 非常に薄い緑色 */
+            color: #333;
+            line-height: 1.6;
+        }
 
+        header {
+            background-color: #a8e6cf; /* 柔らかい緑色 */
+            color: #1a5338;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: #1a5338;
+            border-bottom: 2px solid #a8e6cf;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .item-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .item-list li {
+            background-color: #f7fcf9;
+            border: 1px solid #d4e9d7;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1a5338;
+            color: #d4e9d7;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* スマートフォン向けのデザイン調整 */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .item-list {
+                grid-template-columns: 1fr;
+            }
+        }
