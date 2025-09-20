@@ -43,6 +43,56 @@
             color: #555;
         }
 
+        /* 農園のこだわりセクション */
+        .farm-highlights {
+            background-color: #fffaf0;
+            padding: 50px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .farm-highlights h2 {
+            font-size: 2rem;
+            color: #3e6b35;
+            margin-bottom: 40px;
+        }
+        
+        .highlights-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        
+        .highlight {
+            background-color: #f0f8f5;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .highlight:hover {
+            transform: translateY(-5px);
+        }
+        
+        .highlight img {
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight h3 {
+            font-size: 1.2rem;
+            color: #4b7a4b;
+            margin-bottom: 10px;
+        }
+        
+        .highlight p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #555;
+        }
 
 
         .container {
